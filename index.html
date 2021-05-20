@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Right Clean</title>
+</head>
+
+<body>
+    <div class="video-popup">
+        <div class="video-popup__bg">
+            <iframe class="video-popup__player" width="560" height="315" src="https://www.youtube.com/embed/zUXtsSs2SKk"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <svg class="video-popup__close" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.75 5.25L5.25 18.75" stroke="#C1C1C1" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path d="M18.75 18.75L5.25 5.25" stroke="#C1C1C1" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+        </div>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <img src="./img/Logo.png" alt="Logotype">
+                </div>
+                <nav>
+                    <ul class="menu">
+                        <li class="menu__item">How it works</li>
+                        <li class="menu__item">
+                            <span class="menu__dropped">More</span>
+                            <ul class="menu__dropdown">
+                                <li class="menu__subitem">About</li>
+                                <li class="menu__subitem">Contacts</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="main__illustration-first">
+            <img src="./img/main-illustration-1.png" alt="Main illustration first">
+        </div>
+        <div class="main__illustration-second">
+            <img src="./img/main-illustration-2.png" alt="Main illustration second">
+        </div>
+        <div class="main__inner">
+            <div class="container">
+                <h1 class="main__title title">Cleaning Done <span>Right.</span></h1>
+                <p class="main__text text">
+                    We follow cleaning processes and procedures that are designed to help create a cleaner and healthier
+                    environment for you and your family.
+                </p>
+                <form>
+                    <button class="main__button button" formaction="#video">
+                        Get started
+                        <svg class="button__arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.5 8H13.5" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M9 3.5L13.5 8L9 12.5" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="video" class="video">
+        <div class="container">
+            <div class="video__block">
+                Click to play video
+            </div>
+        </div>
+    </section>
+    <section class="steps">
+        <h2 class="steps__title title">It is simple.</h2>
+        <div class="container">
+            <div class="steps__step">
+                <div class="step__inner">
+                    <div class="step__left">
+                        <div class="step__num">1</div>
+                        <h3 class="step__title">Sign up</h3>
+                        <p class="step__text">
+                            Our vision is to make life easier and improve the environment with our innovative engineered
+                            solutions.
+                            Our purpose is to create an authentic and supportive environment, providing progress and
+                            feeling
+                            of joy.
+                        </p>
+                    </div>
+                    <div class="step__right">
+                        <img src="./img/step-1-illustration.png" alt="First Step Illustration">
+                    </div>
+                </div>
+
+            </div>
+            <div class="steps__step">
+                <div class="step__inner step__inner-rev">
+                    <div class="step__left">
+                        <div class="step__num">2</div>
+                        <h3 class="step__title">Pick your date</h3>
+                        <p class="step__text">
+                            Realism is just the start – our art lies in crafting immersive experiences that evoke
+                            emotion and inspire action. Virtual environments that homebuyers will want to visit, explore
+                            and fall in love with.
+                        </p>
+                    </div>
+                    <div class="step__right">
+                        <img src="./img/step-2-illustration.png" alt="Second Step Illustration">
+                    </div>
+                </div>
+
+            </div>
+            <div class="steps__step">
+                <div class="step__inner">
+                    <div class="step__left">
+                        <div class="step__num">3</div>
+                        <h3 class="step__title">Enjoy cleanliness</h3>
+                        <p class="step__text">
+                            We are committed to delivering more than just realistic images. From the simplest 3D
+                            rendering to the most complex VR experiences, we are on a mission to create architectural
+                            visualization that works harder for our clients
+                        </p>
+                    </div>
+                    <div class="step__right">
+                        <img src="./img/step-3-illustration.png" alt="Third Step Illustration">
+                    </div>
+                </div>
+
+            </div>
+            <button class="steps__button button">
+                Get Started
+                <svg class="button__arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.5 8H13.5" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M9 3.5L13.5 8L9 12.5" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+        </div>
+    </section>
+    <section class="partners">
+        <div class="container">
+            <div class="partners__inner">
+                <div class="partners__item">
+                    <img src="./img/forbes.png" alt="Link to forbes website">
+                </div>
+                <div class="partners__item">
+                    <img src="./img/google.png" alt="Link to google website">
+                </div>
+                <div class="partners__item">
+                    <img src="./img/revolax.png" alt="Link to revolax website">
+                </div>
+                <div class="partners__item">
+                    <img src="./img/invision.png" alt="Link to invision website">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="offer">
+        <div class="container">
+            <h2 class="offer__title title">We offer</h2>
+            <div class="offer__inner">
+                <div class="offer__item">
+                    <img src="./img/domestic.png" alt="Domestic Cleaning icon" class="offer__item-icon">
+                    <h3 class="offer__item-title">Domestic Cleaning</h3>
+                    <p class="offer__item-text">
+                        We are committed to delivering more than just realistic images.
+                    </p>
+                </div>
+                <div class="offer__item">
+                    <img src="./img/window.png" alt="Window Cleaning icon" class="offer__item-icon">
+                    <h3 class="offer__item-title">Window Cleaning</h3>
+                    <p class="offer__item-text">
+                        We are committed to delivering more than just realistic images.
+                    </p>
+                </div>
+                <div class="offer__item">
+                    <img src="./img/disinfection.png" alt="Disinfection icon" class="offer__item-icon">
+                    <h3 class="offer__item-title">Disinfection</h3>
+                    <p class="offer__item-text">
+                        We are committed to delivering more than just realistic images.
+                    </p>
+                </div>
+                <div class="offer__item">
+                    <img src="./img/laundry.png" alt="Laundry icon" class="offer__item-icon">
+                    <h3 class="offer__item-title">Laundry</h3>
+                    <p class="offer__item-text">
+                        We are committed to delivering more than just realistic images.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="call-to-action">
+        <div class="container">
+            <div class="call-to-action__inner">
+                <div class="call-to-action-left">
+                    <h2 class="call-to-action__title">
+                        Get your house <span>Right.</span> cleaned - Today!
+                    </h2>
+                    <p class="call-to-action__text">
+                        So why not save yourself the energy and time that you lack anyway, and treat yourself to the
+                        peace of
+                        mind
+                        that comes with the thought that your house will finally be taken care of?
+                    </p>
+                    <p class="call-to-action__text">
+                        With professional cleaners who are familiar with any type of flooring and furniture you can
+                        think of,
+                        and
+                        the most advanced cleaning products in the market, you house will be so blindingly clean you
+                        will not
+                        recognize it.
+                    </p>
+                </div>
+                <div class="call-to-action-right">
+                    <img src="./img/today-illustration.png" alt="Call to action illustration">
+                </div>
+            </div>
+            <button class="call-to-action__button button">
+                Get Started
+                <svg class="button__arrow" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.5 8H13.5" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M9 3.5L13.5 8L9 12.5" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__column">
+                    <div class="footer__title">
+                        Contact
+                    </div>
+                    <nav>
+                        <ul class="footer__menu">
+                            <li class="footer__link">
+                                <a href="tel:+380504442323">+38 (050) 444–23–23</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="email:logo@gmail.com">logo@gmail.com</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__title">
+                        Values
+                    </div>
+                    <ul class="footer__menu">
+                        <li class="footer__link">
+                            <a href="#">Accessibility</a>
+                        </li>
+                        <li class="footer__link">
+                            <a href="#">Education</a>
+                        </li>
+                        <li class="footer__link">
+                            <a href="#">Environment</a>
+                        </li>
+                        <li class="footer__link">
+                            <a href="#">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__title">
+                        Links
+                    </div>
+                    <ul class="footer__menu">
+                        <li class="footer__link">
+                            <a href="#">Our Product</a>
+                        </li>
+                        <li class="footer__link">
+                            <a href="#">Quality Assurance</a>
+                        </li>
+                        <li class="footer__link">
+                            <a href="#">Reputation Marketing</a>
+                        </li>
+                        <li class="footer__link">
+                            <a href="#">SMO & PPC</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__title">
+                        Company
+                    </div>
+                    <ul class="footer__menu">
+                        <li class="footer__link">
+                            <a href="#">Terms & Condition</a>
+                        </li>
+                        <li class="footer__link">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copy">
+                © 2020 Logo. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <script src="./node_modules/body-scroll-lock/lib/bodyScrollLock.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
